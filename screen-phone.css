@@ -1,0 +1,75 @@
+@media (max-width:768px) {
+    #main-container{
+        width: 326px;
+        /* background-color: pink; */
+    }
+    #information-section{
+        padding: 24px;
+    }
+    #photo-1{
+        display: none;
+    }
+    #dob-1{
+        display: none;
+    }
+    #dob-2{
+        display: block;
+    }
+    #user-data{
+        justify-content: start;
+        width: 100%;
+    }
+    #information-data{
+        display: flex;
+        justify-content: start;
+    }
+    #information-basic{
+        justify-content: start;
+    }
+    #search-section>img{
+        margin: 0px 10px;
+    }
+    #search-data{
+        font-size: 13px;
+    }
+    #search-button{
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    #photo-2{        
+        display: block;
+        margin-right:20px ;
+        width: 70px;
+        height: 70px;
+    }
+    #name{
+        font-size: 16px;
+    }
+    .dob{
+        font-size: 13px;
+    }
+    #user-hashtag{
+        font-size: 16px;
+    }
+    #user-bio{
+        font-size: 13px;
+    }
+    #user-rff{
+        padding: 18px;
+    }
+    .user-rff-data p:nth-child(1){
+        font-size: 11px;
+    }
+    .user-rff-data p:nth-child(2){
+        font-size: 16px;
+    }
+    #user-links{
+        grid-template-columns: auto;
+        font-size: 13px;
+        /* place-content: start; */
+    }
+    .user-info-template{
+        margin: 0;
+        justify-content: start;
+    }
+}

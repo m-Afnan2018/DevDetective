@@ -1,0 +1,39 @@
+.light  #wrapper{
+    background-color: var(--color_3);
+}
+.light  h1{
+    color: var(--color_8);
+}
+.light  #mode{
+    color: var(--color_8);
+}
+.light  #search-section{
+    background-color: var(--color_6);
+}
+.light  #search-data{
+    color: var(--color_8);
+}
+.light  #search-data::placeholder{
+    color:var(--color_8)
+}
+.light  #information-section{
+    background-color: var(--color_4);
+}
+.light  #name{
+    color: var(--color_7);
+}
+.light  .dob{
+    color: var(--color_8);
+}
+.light  #user-rff{
+    background-color: #f6f8ff;
+}
+.light  .user-rff-data p:nth-child(1){
+    color: var(--color_8);
+}
+.light  .user-rff-data p:nth-child(2){
+    color: var(--color_7);
+}
+.light  .user-info-template{
+    color: var(--color_8);
+}

@@ -1,0 +1,45 @@
+.dark  #wrapper{
+    background-color: #141d2f
+}
+.dark  h1{
+    color: #ffffff
+}
+.dark  #mode{
+    color: #ffffff
+}
+.dark  #search-section{
+    background-color: #1e2a47
+}
+.dark  #search-data{
+    color: #ffffff
+}
+.dark  #search-data::placeholder{
+    color:var(--color_6)
+}
+.dark  #information-section{
+    background-color: #1e2a47
+}
+.dark  #name{
+    color: #ffffff
+}
+.dark  .dob{
+    color: #ffffff
+}
+.dark  #user-bio{
+    color: var(--color_6);
+}
+.dark  #user-rff{
+    background-color: #141d2f
+}
+.dark  .user-rff-data p:nth-child(1){
+    color: #ffffff
+}
+.dark  .user-rff-data p:nth-child(2){
+    color: #ffffff
+}
+.dark  .user-info-template{
+    color: #ffffff
+}
+.dark  .user-info-template{
+    filter: brightness(0) invert(1);
+}

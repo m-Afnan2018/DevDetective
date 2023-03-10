@@ -1,0 +1,29 @@
+@media (min-width:768px) and (max-width:1280px) {
+    #main-container{
+        width: 572px;
+    }
+    #photo-1{
+        display: none;
+    }
+    #photo-2{
+        display: block;
+        margin-right:20px ;
+    }
+    #dob-1{
+        display: none;
+    }
+    #dob-2{
+        display: block;
+    }
+    #user-data{
+        justify-content: start;
+        width: 100%;
+    }
+    #information-data{
+        display: flex;
+        justify-content: start;
+    }
+    #information-basic{
+        justify-content: start;
+    }
+}
