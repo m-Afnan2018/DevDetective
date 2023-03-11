@@ -54,6 +54,12 @@ searchButton.addEventListener('click', searchUser);
 switchModeButton.addEventListener('click', toggleMode);
 clearField.addEventListener('click', clearInputField);
 inputField.addEventListener('keyup', checkInput);
+inputField.addEventListener('keydown', (event) => {
+    if(event.key=='Enter'){
+        event.preventDefault();
+        searchUser();
+    }
+})
 
 function searchUser(){
     let searchUsername=inputField.value;
