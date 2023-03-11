@@ -25,10 +25,30 @@ const userCompany=document.querySelector('#company');
 //  Change Modes styling selectores
 const changeWrapper=document.querySelector('#wrapper');
 
-let current='dark';
-toggleMode();
-getUserInformation('m-afnan2018');
-checkInput();
+let current;
+
+init();
+
+function init(){
+    if(localStorage.getItem('theme')){
+        if(localStorage.getItem('theme')=='light'){
+            current='dark';
+        }
+        else{
+            current='light';
+        }
+    }
+    else if(window?.matchMedia('prefered-color-scheme: dark')){
+        current='light';
+    }
+    else{
+        current='dark';
+    }
+
+    toggleMode();
+    getUserInformation('m-afnan2018');
+    checkInput();
+}
 
 searchButton.addEventListener('click', searchUser);
 switchModeButton.addEventListener('click', toggleMode);
@@ -139,6 +159,7 @@ function toggleMode(){
         goToLight();
         current='light';
     }
+    localStorage.setItem('theme', current);
 }
 
 function goToDark(){
